@@ -10,8 +10,8 @@ double m (char *t, char *r) {
 			case 45: return m(t, t) - m(r, r);
 			case 42: return m(t, t) * m(r, r);
 			case 47: return m(t, t) / m(r, r);
-			default: break;
 		}
+		break;
 	}
 	r = t;
 	while (*++r) if (*r == 0x2b) { *r &= 0x04; return m(t, t) + m(r, r); }
