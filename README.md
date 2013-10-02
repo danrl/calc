@@ -7,7 +7,7 @@ This is a fun project similar to regular code golfing but with a calculator inst
 Build
 -----
 
-    gcc -pedantic -Wall -Wextra -std=c99 -o calc calc.c
+    gcc -pedantic -Wall -Wextra -o calc calc.c
 
 Usage
 -----
